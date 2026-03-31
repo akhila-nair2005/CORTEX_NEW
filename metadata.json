@@ -1,0 +1,7 @@
+{
+  "name": "EcoMove: Intelligent Mobility Hub",
+  "description": "An AI-powered transportation assistant for smart cities, featuring route optimization, traffic prediction, and safety reporting.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}

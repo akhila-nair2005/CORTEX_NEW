@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+:root {
+  --bg-slate-50: #f8fafc;
+  --emerald-600: #059669;
+}
+
+body {
+  background-color: var(--bg-slate-50);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Custom scrollbar for a cleaner look */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #e2e8f0;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #cbd5e1;
+}
+
+/* Typography refinements */
+h1, h2, h3, h4 {
+  letter-spacing: -0.02em;
+}
+
+/* Prose overrides for documentation */
+.prose h1 {
+  color: #0f172a;
+  margin-bottom: 1.5rem;
+}
+
+.prose h2 {
+  color: #1e293b;
+  border-bottom: 1px solid #f1f5f9;
+  padding-bottom: 0.5rem;
+}
+
+.prose p {
+  line-height: 1.7;
+}
